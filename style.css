@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+body {
+  font-family: 'Muli', sans-serif;
+  color:  black;
+}
+
+header{
+  background-color: rgba(255, 255, 255, 0.25);
+  position:  fixed;
+  top:  30px;
+  left: 30px;
+  letter-spacing: 0.06em;
+  padding:  5px;
+  border-radius:  10px;
+}
+  /*   Text centré au milieu
+  position: fixed;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  text-align: center;  */
+
+h1 {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+p{
+  color: #000000;
+  letter-spacing:  6px;
+}
+
+
+/* */
+section{
+  height:  100vh;
+  background-image: url(images/pattern01.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.image_2{
+  background-image: url(images/pattern02.jpg);
+}
+
+.image_3{
+  background-image: url(images/pattern03.jpg);
+}
+
+.image_4{
+  background-image: url(images/pattern04.jpg);
+}
+
+.image_5{
+  background-image: url(images/pattern05.jpg);
+}
+
+.image_6{
+  background-image: url(images/pattern06.jpg);
+}
+
+.image_7{
+  background-image: url(images/pattern07.jpg);
+}
+
+.image_8{
+  background-image: url(images/pattern08.jpg);
+}
+
+footer{
+  background-color: rgba(255, 255, 255, 0.25);
+  position:   fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius:  10px;
+}
+
+a{
+  color: #000000;
+  text-decoration:  none;
+  padding: 10px;
+}
+
+a:hover{
+  color: #999999;
+}
+
+@media (max-width: 800px) {
+  section {
+    background-attachment: scroll;
+    height: 60vw;
+  }
+}
